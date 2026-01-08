@@ -1,4 +1,4 @@
-##Previsão de Churn Bancário com Machine Learning
+## Previsão de Churn Bancário com Machine Learning
 
 Este projeto visa identificar clientes com alto potencial de cancelamento de conta (Churn) em uma instituição financeira, permitindo estratégias preventivas de retenção.
 
