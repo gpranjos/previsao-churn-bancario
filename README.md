@@ -21,7 +21,7 @@ https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling
 
 Para reproduzir o projeto:
 1. Crie um token de API no Kaggle
-2. Salve o arquivo `kaggle.json` conforme instruções oficiais
+2. Valide a chave criada para seu usuário
 3. Execute os notebooks normalmente
 
 
