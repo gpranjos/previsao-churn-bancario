@@ -12,5 +12,18 @@ Este projeto visa identificar clientes com alto potencial de cancelamento de con
 * Jupyter Notebook
 * API do Kaggle para extração de dados
 
+## Dataset
+
+Os dados utilizados neste projeto são obtidos automaticamente do Kaggle através da Kaggle API.
+
+**Fonte:**  
+https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling
+
+Para reproduzir o projeto:
+1. Crie um token de API no Kaggle
+2. Salve o arquivo `kaggle.json` conforme instruções oficiais
+3. Execute os notebooks normalmente
+
+
 ---
 *Projeto desenvolvido por Gaspar Anjos*
