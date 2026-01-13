@@ -1,29 +1,36 @@
-## Previsão de Churn Bancário com Machine Learning
+# Previsão de Churn Bancário com Machine Learning
 
-Este projeto visa identificar clientes com alto potencial de cancelamento de conta (Churn) em uma instituição financeira, permitindo estratégias preventivas de retenção.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 
-## Principais Resultados
-* **Acurácia do Modelo:** 87% utilizando o algoritmo Random Forest.
-* **Insight de Negócio:** Clientes da Alemanha e clientes com idade acima de 45 anos possuem uma taxa de saída significativamente maior.
-* **Fatores Decisivos:** Idade, Salário Estimado e Score de Crédito foram as variáveis com maior peso na previsão.
+## Descrição do Projeto
+Este projeto visa identificar clientes com alto potencial de cancelamento de conta (Churn) em uma instituição financeira, permitindo a implementação de estratégias preventivas de retenção. O custo de reter um cliente é significativamente menor do que adquirir um novo (CAC), tornando este modelo uma ferramenta vital para a saúde financeira do banco.
+
+## Destaques Técnicos e Resultados
+* **Acurácia do Modelo:** 87% utilizando o algoritmo **Random Forest**.
+* **Feature Engineering:** Criação de categorias de idade que revelaram um insight crítico: clientes entre **46-60 anos** possuem uma taxa de saída superior a 50%.
+* **Fatores Decisivos:** Através da análise de correlação e importância de variáveis, identificamos que **Idade**, **Saldo Bancário** e **Nível de Atividade** são os principais indicadores de churn.
+* **Matriz de Confusão:** O modelo apresentou alta performance na identificação de clientes que permanecem (1.550 acertos) e identificou com sucesso 183 casos reais de churn.
+
+
 
 ## Tecnologias Utilizadas
-* Python (Pandas, Scikit-Learn, Seaborn)
-* Jupyter Notebook
-* API do Kaggle para extração de dados
+* **Linguagem:** Python.
+* **Bibliotecas:** Pandas, Scikit-Learn, Seaborn e Matplotlib.
+* **Ferramenta:** Jupyter Notebook.
+* **Dados:** Extração automática via **API do Kaggle**.
 
-## Dataset
+## Estrutura do Repositório
+* `data/`: Pasta contendo o dataset (gerada via API).
+* `Previsao_Churn.ipynb`: Notebook com todo o ciclo de ciência de dados (EDA, Limpeza, Engenharia de Variáveis e Modelagem).
+* `README.md`: Documentação do projeto.
 
-Os dados utilizados neste projeto são obtidos automaticamente do Kaggle através da Kaggle API.
-
-**Fonte:**  
-https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling
-
-Para reproduzir o projeto:
-1. Crie um token de API no Kaggle
-2. Valide a chave criada para seu usuário
-3. Execute os notebooks normalmente
-
+## Como Reproduzir
+1. Certifique-se de ter as bibliotecas instaladas: `pip install kaggle pandas scikit-learn seaborn`.
+2. Configure seu `kaggle.json` com suas credenciais de API.
+3. Execute o notebook. O download dos dados ocorrerá automaticamente via script.
 
 ---
-*Projeto desenvolvido por Gaspar Anjos*
+**Autor:** [Seu Nome]
+**Contato:** [Seu LinkedIn/E-mail]
