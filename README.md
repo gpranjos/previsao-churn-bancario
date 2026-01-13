@@ -32,5 +32,5 @@ Este projeto visa identificar clientes com alto potencial de cancelamento de con
 3. Execute o notebook. O download dos dados ocorrerá automaticamente via script.
 
 ---
-**Autor:** [Seu Nome]
-**Contato:** [Seu LinkedIn/E-mail]
+**Autor:** Gaspar Anjos
+**Contato:** www.linkedin.com/in/gaspar-anjos
